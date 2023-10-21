@@ -1,0 +1,14 @@
+D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\bin\Debug\net7.0\Backet.DataProvider.deps.json
+D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\bin\Debug\net7.0\Backet.DataProvider.runtimeconfig.json
+D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\bin\Debug\net7.0\Backet.DataProvider.dll
+D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\bin\Debug\net7.0\Backet.DataProvider.pdb
+D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\obj\Debug\net7.0\Backet.DataProvider.csproj.AssemblyReference.cache
+D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\obj\Debug\net7.0\Backet.DataProvider.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\obj\Debug\net7.0\Backet.DataProvider.AssemblyInfoInputs.cache
+D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\obj\Debug\net7.0\Backet.DataProvider.AssemblyInfo.cs
+D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\obj\Debug\net7.0\Backet.DataProvider.csproj.CoreCompileInputs.cache
+D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\obj\Debug\net7.0\Backet.DataProvider.dll
+D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\obj\Debug\net7.0\refint\Backet.DataProvider.dll
+D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\obj\Debug\net7.0\Backet.DataProvider.pdb
+D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\obj\Debug\net7.0\Backet.DataProvider.genruntimeconfig.cache
+D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\obj\Debug\net7.0\ref\Backet.DataProvider.dll

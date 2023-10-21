@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Backet.DataProvider": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ApplicationConnectionString": "Server=(localdb)\\\\mssqllocaldb;Database=BacketDatabase;Trusted_Connection=True;"
+      }
+    }
+  }
+}

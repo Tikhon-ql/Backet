@@ -1,0 +1,15 @@
+D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\bin\Debug\net7.0\Backet.Logic.deps.json
+D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\bin\Debug\net7.0\Backet.Logic.dll
+D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\bin\Debug\net7.0\Backet.Logic.pdb
+D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\bin\Debug\net7.0\Backet.DataProvider.dll
+D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\bin\Debug\net7.0\Backet.DataProvider.pdb
+D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\obj\Debug\net7.0\Backet.Logic.csproj.AssemblyReference.cache
+D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\obj\Debug\net7.0\Backet.Logic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\obj\Debug\net7.0\Backet.Logic.AssemblyInfoInputs.cache
+D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\obj\Debug\net7.0\Backet.Logic.AssemblyInfo.cs
+D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\obj\Debug\net7.0\Backet.Logic.csproj.CoreCompileInputs.cache
+D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\obj\Debug\net7.0\Backet.Logic.csproj.CopyComplete
+D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\obj\Debug\net7.0\Backet.Logic.dll
+D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\obj\Debug\net7.0\refint\Backet.Logic.dll
+D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\obj\Debug\net7.0\Backet.Logic.pdb
+D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\obj\Debug\net7.0\ref\Backet.Logic.dll
