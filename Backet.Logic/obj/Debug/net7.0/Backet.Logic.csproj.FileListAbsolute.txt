@@ -13,3 +13,5 @@ D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\obj\Debug\net7.0\Backet.Logic.dll
 D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\obj\Debug\net7.0\refint\Backet.Logic.dll
 D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\obj\Debug\net7.0\Backet.Logic.pdb
 D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\obj\Debug\net7.0\ref\Backet.Logic.dll
+D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\bin\Debug\net7.0\Backet.Common.dll
+D:\Proga\AspNetCore\Backet.WebApi\Backet.Logic\bin\Debug\net7.0\Backet.Common.pdb

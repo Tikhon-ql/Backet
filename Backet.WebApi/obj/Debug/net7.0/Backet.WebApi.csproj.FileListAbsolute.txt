@@ -80,3 +80,5 @@ D:\Proga\AspNetCore\Backet.WebApi\Backet.WebApi\bin\Debug\net7.0\Microsoft.Exten
 D:\Proga\AspNetCore\Backet.WebApi\Backet.WebApi\bin\Debug\net7.0\Mono.TextTemplating.dll
 D:\Proga\AspNetCore\Backet.WebApi\Backet.WebApi\bin\Debug\net7.0\System.CodeDom.dll
 D:\Proga\AspNetCore\Backet.WebApi\Backet.WebApi\obj\Debug\net7.0\Backet.WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Proga\AspNetCore\Backet.WebApi\Backet.WebApi\bin\Debug\net7.0\Backet.Common.dll
+D:\Proga\AspNetCore\Backet.WebApi\Backet.WebApi\bin\Debug\net7.0\Backet.Common.pdb

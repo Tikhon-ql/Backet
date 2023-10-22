@@ -12,3 +12,6 @@ D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\obj\Debug\net7.0\refint\Ba
 D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\obj\Debug\net7.0\Backet.DataProvider.pdb
 D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\obj\Debug\net7.0\Backet.DataProvider.genruntimeconfig.cache
 D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\obj\Debug\net7.0\ref\Backet.DataProvider.dll
+D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\bin\Debug\net7.0\Backet.Common.dll
+D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\bin\Debug\net7.0\Backet.Common.pdb
+D:\Proga\AspNetCore\Backet.WebApi\Backet.DataProvider\obj\Debug\net7.0\Backet.DataProvider.csproj.CopyComplete

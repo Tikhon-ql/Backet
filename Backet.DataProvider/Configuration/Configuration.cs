@@ -1,5 +1,7 @@
-﻿using Backet.DataProvider.Context;
+﻿using Backet.Common.Interfaces;
+using Backet.DataProvider.Context;
 using Backet.DataProvider.Interfaces;
+using Backet.DataProvider.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -24,6 +26,12 @@ namespace Backet.DataProvider.Configuration
             {
                 options.UseSqlServer(connectionString).UseLazyLoadingProxies();
             });
+
+            services.AddScoped<IPlayStatsRepository, PlayStatsRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
+            services.AddScoped<IRoleRepository,RoleRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
         }
     }
 }

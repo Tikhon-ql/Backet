@@ -10,7 +10,8 @@ namespace Backet.DataProvider.Interfaces
     public interface IRepository<T> where T : BaseEntity
     {
         void Create(T entity);
-        T Read(Guid id);
+        T? Read(Guid id);
         void Delete(T entity);
+        List<T> ReadAll();
     }
 }

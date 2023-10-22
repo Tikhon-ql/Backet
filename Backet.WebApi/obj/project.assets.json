@@ -1207,10 +1207,21 @@
           }
         }
       },
+      "Backet.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Backet.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Backet.Common.dll": {}
+        }
+      },
       "Backet.DataProvider/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Backet.Common": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.12",
           "Microsoft.EntityFrameworkCore.Proxies": "7.0.12",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.12"
@@ -3442,6 +3453,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Backet.Common/1.0.0": {
+      "type": "project",
+      "path": "../Backet.Common/Backet.Common.csproj",
+      "msbuildProject": "../Backet.Common/Backet.Common.csproj"
     },
     "Backet.DataProvider/1.0.0": {
       "type": "project",
