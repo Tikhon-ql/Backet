@@ -11,13 +11,13 @@ namespace Backet.WebApi.Controllers
             this.unitOfWork = unitOfWork;
         }
 
-        public IActionResult ReturnOk()
+        protected IActionResult ReturnOk()
         {
             unitOfWork.Commit();
             return Ok();
         }
 
-        public IActionResult ReturnOk<T>(T data)
+        protected IActionResult ReturnOk<T>(T data)
         {
             unitOfWork.Commit();
             return Ok(data);

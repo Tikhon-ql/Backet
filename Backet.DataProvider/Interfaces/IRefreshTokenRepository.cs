@@ -9,5 +9,6 @@ namespace Backet.DataProvider.Interfaces
 {
     public interface IRefreshTokenRepository : IRepository<RefreshToken>
     {
+        RefreshToken? ReadByToken(string token);
     }
 }

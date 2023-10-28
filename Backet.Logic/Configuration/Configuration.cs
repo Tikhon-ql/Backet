@@ -12,7 +12,7 @@ namespace Backet.Logic.Configuration
         {
             services.ConfigureDataProviderLayer(configuration);
             services.AddScoped<IAuthenticationService, AuthenticationService>();
-            services.AddScoped<IPlayStatsService,PlayStatsService>();
+            services.AddScoped<IPlayStatsService, PlayStatsService>();
         }
     }
 }

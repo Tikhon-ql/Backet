@@ -75,6 +75,15 @@
           }
         }
       },
+      "MaybeMonad/1.0.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MaybeMonad.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MaybeMonad.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -671,6 +680,18 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "ResultMonad/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "MaybeMonad": "1.0.1.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/ResultMonad.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ResultMonad.dll": {}
+        }
+      },
       "System.CodeDom/4.4.0": {
         "type": "package",
         "compile": {
@@ -1116,6 +1137,9 @@
       "Backet.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "ResultMonad": "1.0.1"
+        },
         "compile": {
           "bin/placeholder/Backet.Common.dll": {}
         },
@@ -1204,6 +1228,18 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "MaybeMonad/1.0.1.1": {
+      "sha512": "7N+UAyHPlcFd8Xw8ZwCot5GylynDcuVaDNvd258hc99lPjFMFJ2SZhyE7xNrLgKSmSYGX5gtvFCpLW/MrnqV7Q==",
+      "type": "package",
+      "path": "maybemonad/1.0.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/MaybeMonad.dll",
+        "maybemonad.1.0.1.1.nupkg.sha512",
+        "maybemonad.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -2090,6 +2126,18 @@
         "lib/netstandard2.0/Mono.TextTemplating.dll",
         "mono.texttemplating.2.2.1.nupkg.sha512",
         "mono.texttemplating.nuspec"
+      ]
+    },
+    "ResultMonad/1.0.1": {
+      "sha512": "FUPXv68V56E9bd/isJpmaYSh6n8QMuiMoL9T2JqZ4cfzmVd3zQ0lxhCiNR6zY/zxo+ZzKOwN7vnxK/r3z1BKxQ==",
+      "type": "package",
+      "path": "resultmonad/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/ResultMonad.dll",
+        "resultmonad.1.0.1.nupkg.sha512",
+        "resultmonad.nuspec"
       ]
     },
     "System.CodeDom/4.4.0": {

@@ -13,8 +13,8 @@ namespace Backet.DataProvider.Repositories
     internal class BaseRepository<T> : IDisposable, IRepository<T> where T : BaseEntity
     {
 
-        private readonly ApplicationDbContext _context;
         private readonly DbSet<T> _entitySet;
+        protected readonly ApplicationDbContext _context;
         public BaseRepository(ApplicationDbContext context)
         {
             _context = context;

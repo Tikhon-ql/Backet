@@ -14,5 +14,7 @@ namespace Backet.DataProvider.Repositories
         public UserRepository(ApplicationDbContext context) : base(context)
         {
         }
+
+        public User? ReadByEmail(string email) => _context.Users.FirstOrDefault(u=>u.Email == email);
     }
 }

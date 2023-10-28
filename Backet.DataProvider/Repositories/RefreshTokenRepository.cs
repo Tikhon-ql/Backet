@@ -14,5 +14,8 @@ namespace Backet.DataProvider.Repositories
         public RefreshTokenRepository(ApplicationDbContext context) : base(context)
         {
         }
+
+        public RefreshToken? ReadByToken(string token)
+            => _context.RefreshTokens.FirstOrDefault(rt => rt.Token == token);
     }
 }

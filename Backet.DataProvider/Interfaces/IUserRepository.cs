@@ -9,5 +9,6 @@ namespace Backet.DataProvider.Interfaces
 {
     public interface IUserRepository : IRepository<User>
     {
+        User? ReadByEmail(string email);
     }
 }
