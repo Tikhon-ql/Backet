@@ -3,16 +3,14 @@ import {Grid, Paper, Box, List, ListItemButton, ListItemText, Typography}  from 
 import Image from 'mui-image';
 import img from './../assets/imgs/aomine.png';
 import logo from './../assets/imgs/logo.png';
+import api from './../api/api';
 
 const Home: React.FC<{}> = ({}) => {
+    api.get("codeasd");
     return (
         <Box sx={{height: "100vh"}}>
             <Grid sx={{height: "100vh"}} container style={{"backgroundColor":"#404040"}}>
-                <Grid item container xs={6}>
-                    <Box sx={{display:"flex"}}>
-                        <Image width={100} fit="cover" src={logo}/>
-                        <Typography variant="h4" sx={{marginY:"auto"}} color={"#AA0000"}>Backet</Typography>
-                    </Box>
+                <Grid item xs={6}>
                     <Grid item xs={12}>
                         <List sx={{margin: "100px", backgroundColor:"rgba(0,0,0,.2)"}}>
                             <ListItemButton alignItems='center'>

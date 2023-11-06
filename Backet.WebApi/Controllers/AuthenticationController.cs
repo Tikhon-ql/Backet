@@ -1,12 +1,12 @@
 ﻿using Backet.Common.Interfaces;
 using Backet.Common.ViewModels;
+using Backet.Common.ViewModels.Identity;
 using Backet.Logic.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Backet.WebApi.Controllers
 {
-    [ApiController]
     [Route("/authentication")]
     public class AuthenticationController : BaseController
     {

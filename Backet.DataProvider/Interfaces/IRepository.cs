@@ -1,4 +1,5 @@
-﻿using Backet.DataProvider.Models;
+﻿using Backet.DataProvider.Filters;
+using Backet.DataProvider.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,6 @@ namespace Backet.DataProvider.Interfaces
         void Create(T entity);
         T? Read(Guid id);
         void Delete(T entity);
-        List<T> ReadAll();
+        List<T> ReadByFilter(BaseFilter<T> filter);
     }
 }

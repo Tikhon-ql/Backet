@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Backet.WebApi.Controllers
 {
+    [ApiController]
     public class BaseController : ControllerBase
     {
         private readonly IUnitOfWork unitOfWork;

@@ -1,4 +1,5 @@
 ﻿using Backet.Common.ViewModels;
+using Backet.Common.ViewModels.Identity;
 using Backet.DataProvider.Interfaces;
 using Backet.DataProvider.Models.Identity;
 using Backet.Logic.Interfaces;
@@ -93,6 +94,7 @@ namespace Backet.Logic.Services
             var user = _userRepository.ReadByEmail(viewModel.Email);
             if (user != null)
                 return Result.Fail();
+
             var newUser = new User
             {
                 Email = viewModel.Email,
@@ -100,6 +102,7 @@ namespace Backet.Logic.Services
                 Password = viewModel.Password,
             };
             _userRepository.Create(newUser);
+
             return Result.Ok();
         }
 

@@ -1,4 +1,5 @@
 ﻿using Backet.Common.ViewModels;
+using Backet.Common.ViewModels.Identity;
 using Backet.Logic.Models.Identity;
 using ResultMonad;
 
