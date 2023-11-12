@@ -1,0 +1,18 @@
+@startuml
+[*] --> MainScreen : Приложение запущено
+
+state MainScreen {
+  [*] --> AddStats : Пользователь в главном окне
+  AddStats --> EnterStats : Выбор "Добавить статистику"
+}
+
+state EnterStats {
+  [*] --> EnterDetails : Начало ввода деталей
+  EnterDetails --> ConfirmStats : Подтверждение данных
+}
+
+state ConfirmStats {
+  [*] --> SaveStats : Подтверждение данных
+  SaveStats --> MainScreen : Статистика сохранена
+}
+@enduml

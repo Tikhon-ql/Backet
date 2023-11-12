@@ -1,0 +1,24 @@
+@startuml
+
+actor User as "User"
+participant "Frontend" as Frontend
+participant "Backend" as Backend
+database "Boards Database" as Database
+
+User -> Frontend: Открыть форму добавления новой статистики
+activate Frontend
+
+User -> Frontend: Ввести детали статистики (название, дата, результат)
+User -> Frontend: Подтвердить ввод данных
+Frontend -> Backend: Отправить запрос на добавление статистики с деталями
+activate Backend
+
+Backend -> Database: Сохранить детали статистики
+Database --> Backend: Успешно сохранено
+deactivate Backend
+
+Backend --> Frontend: Подтверждение добавления статистики
+Frontend --> User: Успешное добавление статистики
+deactivate Frontend
+
+@enduml

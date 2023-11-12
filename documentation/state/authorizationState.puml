@@ -1,0 +1,25 @@
+@startuml
+
+[*] --> LoggedOut : Приложение запущено
+
+state LoggedOut {
+  [*] --> EnterCredentials : Пользователь не аутентифицирован
+  EnterCredentials --> ValidateCredentials : Ввод учетных данных
+}
+
+state EnterCredentials {
+  [*] --> Enter : Начало ввода данных
+  Enter --> Validate : Проверка данных
+}
+
+state ValidateCredentials {
+  [*] --> GrantAccess : Данные верны
+  GrantAccess --> LoggedIn : Успешная авторизация
+  Validate --> [*] : Данные не верны
+}
+
+state LoggedIn {
+  [*] --> LoggedOut : Выход из учетной записи
+}
+
+@enduml

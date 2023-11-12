@@ -1,0 +1,24 @@
+@startuml
+
+left to right direction
+
+actor Пользователь as User
+rectangle "Backet Application" {
+  usecase (Зарегистрироваться) as Register
+  usecase (Войти в учетную запись) as Login
+  usecase (Выйти из учетной записи) as Logout
+  usecase (Добавить новый результат) as AddResult
+  usecase (Вывести все результаты) as ViewResults
+  usecase (Вывести график результатов) as ViewChart
+  usecase (Удалить результат) as DeleteResult
+
+  User --> Register : (1) Желание зарегистрироваться
+  User --> Login : (2) Вход в учетную запись
+  User --> Logout : (3) Выход из учетной записи
+  User --> AddResult : (4) Добавить новый результат
+  User --> ViewResults : (5) Просмотреть все результаты
+  User --> ViewChart : (6) Просмотреть график результатов
+  User --> DeleteResult : (7) Удалить результат
+}
+
+@enduml

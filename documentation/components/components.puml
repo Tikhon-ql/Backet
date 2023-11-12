@@ -1,0 +1,27 @@
+@startuml
+package "Backet Application" {
+  
+  package "Frontend" {
+    [User Profile]
+    [Stats View]
+  }
+
+  database "MSSQL Database" {
+    folder "Tables" {
+      [User Data]
+      [Stats Data]
+    }
+  }
+
+  package "Backend" {
+    [User Management]
+    [Stats Management]
+  }
+
+  [User Profile] --> [User Management] : Sends/Receives Data
+  [Stats View] --> [Stats Management] : Sends/Receives Data
+  [User Management] --> [MSSQL Database] : Manages Data
+  [Stats Management] --> [MSSQL Database] : Manages Data
+
+}
+@enduml
