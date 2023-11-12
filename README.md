@@ -13,8 +13,13 @@ Backet позволяет пользователям сохранять их и�
 
 
 #### Графический материал:
-- [Диаграммы](https://github.com/Tikhon-ql/Backet)		
-- [Скриншоты](https://github.com/Tikhon-ql/Backet) 
+- [Диаграммы активностей](https://github.com/Tikhon-ql/Backet/blob/main/documentation/activities/activities.md)
+- [Диаграмма развертывания](https://github.com/Tikhon-ql/Backet/blob/main/documentation/deploy/deploy.md)
+- [Диаграммы последовательности](https://github.com/Tikhon-ql/Backet/blob/main/documentation/sequence/sequence.md)
+- [Диаграмма состояний](https://github.com/Tikhon-ql/Backet/blob/main/documentation/state/state.md)
+- [Диаграмма компонентов](https://github.com/Tikhon-ql/Backet/blob/main/documentation/components/components.md)
+- [Диаграмма вариантов использования](https://github.com/Tikhon-ql/Backet/blob/main/documentation/use_case/use_cast.md)
+
 
 #### Готовый проект:
 
